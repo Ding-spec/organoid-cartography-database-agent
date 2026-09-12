@@ -1,0 +1,6 @@
+# Ignore everything by default; this repo only ships README + release assets.
+# Windows installer .exe is uploaded to Releases, never committed.
+*
+!.gitignore
+!README.md
+!LICENSE
