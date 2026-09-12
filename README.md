@@ -1,8 +1,7 @@
 # Organoid Cartography Database: Local cell-type annotation for spatial and single-cell transcriptomics
 
 **NOTE**: This repository distributes the official Windows installer for
-**Organoid Cartography Database**. The full project source code (R Shiny
-frontend + Python OCDAgent backend + Inno Setup build pipeline) lives in a
+**Organoid Cartography Database**. The full project source code lives in a
 separate development repository
 (<https://github.com/Ding-spec/organoid-cartography-database-app>).
 
