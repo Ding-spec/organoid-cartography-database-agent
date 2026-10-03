@@ -55,7 +55,7 @@ If this software contributes to published work, cite the source repository:
 
 ```
 Organoid Cartography Database Agent.
-https://github.com/Ding-spec/organoid-cartography-database-app
+https://github.com/Ding-spec/organoid-cartography-database-agent
 ```
 
 ## License
