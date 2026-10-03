@@ -2,8 +2,6 @@
 
 Marker discovery, cell annotation and atlas exploration multi-agents for organoid and tissue single-cell and spatial transcriptomics.
 
-**NOTE**: This repository distributes the official Windows installer for **Organoid Cartography Database Agent**. The full project source code lives in a separate development repository (<https://github.com/Ding-spec/organoid-cartography-database-app>).
-
 ## About
 
 Organoid Cartography Database Agent is a desktop application for Windows. You install it on your own machine and open it from the Start menu. There is no server to deploy, no account to create, and no command line to learn.
