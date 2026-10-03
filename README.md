@@ -24,13 +24,24 @@ When installation finishes, launch **Organoid Cartography Database Agent** from 
 
 ## Usage
 
-1. **Welcome** - read the application overview.
-2. **Data import** - load your `FindAllMarkers` file (CSV/TSV/TXT/XLSX) and a reference marker file (Excel/CSV).
-3. **Marker preview** - check the matched markers; expand a row for scores, paper titles and journal impact factors.
-4. **Parameter settings** - pick normal or expert mode, top-N, organism and p-value cutoff. Expert mode adds cell-type whitelist and blacklist.
-5. **Run annotation** - start the annotation and read the champion table, ranking table and detailed marker matches.
-6. **Visualizations** - bar, heatmap, count and dot plots, in a 9-colour scheme.
-7. **Downloads** - export `cluster_ct_ranking.csv`, detailed match tables, a metrics ZIP, four high-resolution PDF plots and a self-contained `reproduce_annotation.R`.
+### Annotation
+
+- Upload your `FindAllMarkers` file (CSV/TSV/TXT/XLSX) and a reference Marker file.
+- Preview matched markers, then set top-N, organism and p-value cutoff. Expert mode adds a cell-type whitelist and blacklist.
+- Run the annotation and read the champion and ranking tables.
+- Download `cluster_ct_ranking.csv`, the match tables, the plots and `reproduce_annotation.R`.
+
+### OCDAgent
+
+- Search papers and extract markers. View the paper list at the bottom right.
+- Upload papers to extract cell types and markers with their references.
+- Review the Marker CSV, then use it alone or with OCD for annotation. The original database stays unchanged.
+
+### Explore
+
+- **Organoid Atlas** - Open the Skin atlas or upload your own data to view gene expression, cell annotations and UMAP.
+- **Marker Database** - Search for markers. Results appear from highest to lowest score by default.
+- **Marker Comparison** - Compare two marker sets, with results sorted by score. Click a Venn region to change the word cloud, then click a marker to find its row in the table.
 
 ## System requirements
 
