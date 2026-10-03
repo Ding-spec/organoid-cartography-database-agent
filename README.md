@@ -4,23 +4,21 @@ Marker discovery, cell annotation and atlas exploration multi-agents for organoi
 
 ## About
 
-Organoid Cartography Database Agent is a desktop application for Windows. You install it on your own machine and open it from the Start menu. There is no server to deploy, no account to create, and no command line to learn.
+Organoid Cartography Database Agent is a Windows desktop application for marker discovery, cell-type annotation and atlas exploration in organoid and tissue single-cell and spatial transcriptomics.
 
-It runs entirely on your computer. Datasets, marker lists and annotation results stay on your machine and are never uploaded anywhere, so unpublished or sensitive data remains under your own control.
-
-You also control the reference data. The app ships with a built-in organoid atlas and a default marker set so you can start right away, and you can swap in your own `FindAllMarkers` output and reference marker files whenever you need to. Updating the reference data is your call, not something the application decides for you.
+The application runs on your own machine and processes data locally, so nothing is sent to an external service. Reference data is yours to manage: the installer includes a skin organoid atlas and a default marker database, and both can be replaced or extended with your own files.
 
 ## Installation
 
-Download the Windows installer from the [Releases](../../releases) page:
+Download the installer from the [Releases](../../releases) page:
 
 ```
 Organoid-Cartography-Database-Agent-Setup.exe  (~2.10 GB)
 ```
 
-Double-click the installer. It does not require administrator rights and you do not need to install R yourself, because the installer carries its own R runtime and the CRAN packages the application needs.
+Run the installer. Administrator rights are not required, and R does not need to be installed separately, because the installer includes the R runtime and the packages the application depends on.
 
-When installation finishes, launch **Organoid Cartography Database Agent** from the Start menu or the desktop shortcut. The application opens in your default browser.
+After installation, start **Organoid Cartography Database Agent** from the Start menu or the desktop shortcut. The interface opens in your default browser.
 
 ## Usage
 
@@ -29,7 +27,7 @@ When installation finishes, launch **Organoid Cartography Database Agent** from 
 - Upload your `FindAllMarkers` file (CSV/TSV/TXT/XLSX) and a reference Marker file.
 - Preview matched markers, then set top-N, organism and p-value cutoff. Expert mode adds a cell-type whitelist and blacklist.
 - Run the annotation and read the champion and ranking tables.
-- Download `cluster_ct_ranking.csv`, the match tables, the plots and `reproduce_annotation.R`.
+- Export `cluster_ct_ranking.csv`, the match tables, the plots and `reproduce_annotation.R`.
 
 ### OCDAgent
 
@@ -46,14 +44,14 @@ When installation finishes, launch **Organoid Cartography Database Agent** from 
 ## System requirements
 
 - Windows 10 / 11 (x64)
-- About 3 GB free disk space for installation
+- About 3 GB free disk space
 - Web browser (Edge / Chrome / Firefox)
-- Install takes roughly 4-8 minutes on an ordinary desktop
-- The bundled demo run takes roughly 2-6 minutes on an ordinary desktop
+- Installation takes 4-8 minutes on a typical desktop
+- The bundled demo run takes 2-6 minutes on a typical desktop
 
 ## Citation
 
-If Organoid Cartography Database Agent contributes to published work, please cite the source repository:
+If this software contributes to published work, cite the source repository:
 
 ```
 Organoid Cartography Database Agent.
@@ -62,4 +60,4 @@ https://github.com/Ding-spec/organoid-cartography-database-app
 
 ## License
 
-This release distribution is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for details.
+Released under the GNU General Public License v3.0. See [LICENSE](LICENSE).
