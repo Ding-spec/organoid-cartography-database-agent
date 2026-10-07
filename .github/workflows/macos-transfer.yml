@@ -1,0 +1,20 @@
+name: Transfer verified native Mac installer files
+on:
+  push:
+    branches:
+      - publish/macos-20261007
+permissions:
+  contents: write
+jobs:
+  transfer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GH_TOKEN: ${{ github.token }}
+      OCD_MAC_INSTALLER_DOWNLOADS: ${{ secrets.OCD_MAC_INSTALLER_DOWNLOADS_20261007 }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: packaging/macos
+      - name: Transfer native installers and verify every SHA-256
+        run: python3 packaging/macos/transfer_native.py
