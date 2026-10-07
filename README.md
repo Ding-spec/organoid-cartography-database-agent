@@ -20,6 +20,19 @@ Run the installer. Administrator rights are not required, and R does not need to
 
 After installation, start **Organoid Cartography Database Agent** from the Start menu or the desktop shortcut. The interface opens in your default browser.
 
+### macOS installation
+
+Download the [Mac installers](https://github.com/Ding-spec/organoid-cartography-database-agent/releases/tag/macos-2026.10.07).
+Choose `arm64` for Apple Silicon (M series), or `x86_64` for Intel. Requires macOS 15 or newer.
+
+Keep all installer files for your architecture in the same folder. Open the `.pkg`, or open the first `.dmg` and run the `.pkg` inside it. Keep any `.dmgpart` files beside the `.dmg`; no manual joining is needed.
+
+Start **Organoid Cartography Database Agent** from Applications. The installer includes the complete database, skin atlas and independent native R/Python environment. Keep at least 20 GB of free disk space; 16 GB RAM or more is recommended for the skin atlas.
+
+The installer is not Apple Developer signed or notarized. macOS may require approval in **System Settings > Privacy & Security**.
+
+Both versions passed download, installation and application checks on clean native Macs. SHA-256 checksums and verification reports are attached to the release.
+
 ## Usage
 
 ### Annotation
