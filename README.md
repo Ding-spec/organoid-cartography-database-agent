@@ -4,7 +4,7 @@ Marker discovery, cell annotation and atlas exploration multi-agents for organoi
 
 ## About
 
-Organoid Cartography Database Agent is a desktop application for Windows and macOS for marker discovery, cell-type annotation and atlas exploration in organoid and tissue single-cell and spatial transcriptomics.
+Organoid Cartography Database Agent is a desktop application for marker discovery, cell-type annotation and atlas exploration in organoid and tissue single-cell and spatial transcriptomics.
 
 The application runs on your own machine and processes data locally, so nothing is sent to an external service. Reference data is yours to manage: the installer includes a skin organoid atlas and a default marker database, and both can be replaced or extended with your own files.
 
