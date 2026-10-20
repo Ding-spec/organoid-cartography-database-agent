@@ -14,7 +14,15 @@ Download the installer from the [Releases](../../releases) page.
 
 ### Windows
 
-`Organoid-Cartography-Database-Agent-Setup.exe` (~2.10 GB). Run it; administrator rights are not required, and the R runtime is included, so R does not need to be installed separately.
+The installer is split across three files. Download all three into one folder, keep the names unchanged and run the `.exe`; the two `.bin` parts are joined automatically.
+
+```
+Organoid.Cartography.Database.Agent.Setup.exe
+Organoid.Cartography.Database.Agent.Setup-1.bin
+Organoid.Cartography.Database.Agent.Setup-2.bin
+```
+
+About 2.1 GB in total. No administrator rights are needed, and the R and Python runtimes are bundled.
 
 Start **Organoid Cartography Database Agent** from the Start menu or the desktop shortcut. The interface opens in your default browser.
 
