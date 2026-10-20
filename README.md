@@ -53,7 +53,7 @@ Open the `.dmg`, run the `.pkg` inside it and install to `/Applications`; the ap
 ## System requirements
 
 - Windows 10 / 11 (x64)
-- macOS 15.0 or later (Apple Silicon or Intel)
+- macOS 15 or newer (Apple Silicon or Intel)
 - About 3 GB free disk space on Windows; about 9 GB on macOS
 - Web browser (Edge / Chrome / Firefox)
 - Installation takes 4-8 minutes on a typical desktop
