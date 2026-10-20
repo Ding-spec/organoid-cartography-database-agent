@@ -67,6 +67,7 @@ The interface is served locally at `http://127.0.0.1:3838`.
 - About 3 GB free disk space on Windows; about 9 GB for the macOS install, including the 2.6 GB download
 - Web browser (Edge / Chrome / Firefox)
 - Installation takes 4-8 minutes on a typical desktop
+- The bundled demo run takes 2-6 minutes on a typical desktop
 
 ## Citation
 
